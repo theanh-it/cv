@@ -65,6 +65,15 @@ main.container .box-main .left .info .text{
     color: #545454;
     font-size: 14px;
 }
+main.container .box-main .left .info .text a{
+    color: #545454;
+}
+main.container .box-main .left .info .text.phone a:first-child{
+    margin-right: 5px;
+}
+main.container .box-main .left .info .text.phone a:last-child{
+    margin-left: 5px;
+}
 main.container .box-main .left .skill{
     width: 100%;
     margin-top: 20px;
@@ -150,7 +159,7 @@ main.container .box-main .right .box-header h2{
 }
 main.container .box-main .right .graduate{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 main.container .box-main .right .graduate h2{
     display: flex;
@@ -187,7 +196,7 @@ main.container .box-main .right .graduate .box-graduate .item ul{
 }
 main.container .box-main .right .experience{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 main.container .box-main .right .experience h2{
     display: flex;
@@ -234,7 +243,7 @@ main.container .box-main .right .experience .box-experience .item h5 ~ ul{
 }
 main.container .box-main .right .project{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 main.container .box-main .right .project h2{
     display: flex;
@@ -258,6 +267,10 @@ main.container .box-main .right .project .box-project ul{
 }
 main.container .box-main .right .project .box-project ul li{
     margin: 10px;
+}
+main.container .box-main .right .project .box-project ul li a{
+    color: #3F4650;
+    font-weight: 600;
 }
 @media (max-width:740px) {
     main{
